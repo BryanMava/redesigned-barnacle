@@ -1,0 +1,383 @@
+[16Jan2026 01:05:19.055] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[16Jan2026 01:05:19.066] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[16Jan2026 01:05:22.105] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16Jan2026 01:05:22.123] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.onLoad
+[16Jan2026 01:05:22.126] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file URL: union:/workspaces/redesigned-barnacle/servidor_minecraft/mods/OptiFine-1.20.1_HD_U_I6_pre6.jar%23124!/
+[16Jan2026 01:05:22.139] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFine ZIP file: /workspaces/redesigned-barnacle/servidor_minecraft/mods/OptiFine-1.20.1_HD_U_I6_pre6.jar
+[16Jan2026 01:05:22.142] [main/INFO] [optifine.OptiFineTransformer/]: Target.PRE_CLASS is available
+[16Jan2026 01:05:22.339] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/redesigned-barnacle/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[16Jan2026 01:05:22.353] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.initialize
+[16Jan2026 01:05:23.055] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/redesigned-barnacle/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[16Jan2026 01:05:23.058] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/redesigned-barnacle/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Jan2026 01:05:23.060] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/redesigned-barnacle/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Jan2026 01:05:23.061] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/redesigned-barnacle/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[16Jan2026 01:05:23.686] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[16Jan2026 01:05:23.689] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: geckolib. Using Mod File: /workspaces/redesigned-barnacle/servidor_minecraft/mods/geckolib-forge-1.20.1-4.4.9.jar
+[16Jan2026 01:05:23.689] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 5 dependencies adding them to mods collection
+[16Jan2026 01:05:24.869] [main/INFO] [optifine.OptiFineTransformationService/]: OptiFineTransformationService.transformers
+[16Jan2026 01:05:24.878] [main/INFO] [optifine.OptiFineTransformer/]: Targets: 412
+[16Jan2026 01:05:26.635] [main/INFO] [optifine.OptiFineTransformationService/]: additionalClassesLocator: [optifine., net.optifine.]
+[16Jan2026 01:05:28.227] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Jan2026 01:05:28.386] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.crypticmushroom.minecraft.registry.coremod.CrypticCoreMod]
+[16Jan2026 01:05:28.390] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.crypticmushroom.minecraft.midnight.coremod.MidnightCoreMod]
+[16Jan2026 01:05:28.399] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[16Jan2026 01:05:28.426] [main/WARN] [mixin/]: Reference map 'untamedwilds.refmap.json' for mixins.untamedwilds.json could not be read. If this is a development environment you can ignore this message
+[16Jan2026 01:05:31.382] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.armor.BacktankBlockEntity)
+[16Jan2026 01:05:31.384] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess
+[16Jan2026 01:05:31.910] [main/WARN] [mixin/]: Error loading class: com/legacy/lucent/api/data/objects/EntityLighting$Builder (java.lang.ClassNotFoundException: com.legacy.lucent.api.data.objects.EntityLighting$Builder)
+[16Jan2026 01:05:31.913] [main/WARN] [mixin/]: @Mixin target com.legacy.lucent.api.data.objects.EntityLighting$Builder was not found META-INF/mixin/midnight.mixins.json:accessor.EntityLightingBuilderAccessor
+[16Jan2026 01:05:31.916] [main/WARN] [mixin/]: Error loading class: com/legacy/lucent/api/data/objects/ItemLighting$Builder (java.lang.ClassNotFoundException: com.legacy.lucent.api.data.objects.ItemLighting$Builder)
+[16Jan2026 01:05:31.916] [main/WARN] [mixin/]: @Mixin target com.legacy.lucent.api.data.objects.ItemLighting$Builder was not found META-INF/mixin/midnight.mixins.json:accessor.ItemLightingBuilderAccessor
+[16Jan2026 01:05:32.200] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[16Jan2026 01:06:03.443] [modloading-worker-0/INFO] [Midnight/]: Welcome back to The Midnight. Shall we resume the spread of the malaise?
+[16Jan2026 01:06:03.946] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[16Jan2026 01:06:03.947] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[16Jan2026 01:06:07.649] [modloading-worker-0/INFO] [untamedwilds.UntamedWilds/]: Registering Packets!
+[16Jan2026 01:06:08.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[16Jan2026 01:06:08.954] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[16Jan2026 01:06:08.954] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[16Jan2026 01:06:08.955] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[16Jan2026 01:06:08.956] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[16Jan2026 01:06:08.970] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
+[16Jan2026 01:06:08.970] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[16Jan2026 01:06:08.971] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[16Jan2026 01:06:08.975] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[16Jan2026 01:06:08.978] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[16Jan2026 01:06:08.982] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[16Jan2026 01:06:09.094] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.8.0 Target: 9.0.9
+[16Jan2026 01:06:09.096] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [midnight] Starting version check at https://changelogs.moddinglegacy.com/midnight.json
+[16Jan2026 01:06:09.152] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[16Jan2026 01:06:09.259] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[16Jan2026 01:06:09.301] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[16Jan2026 01:06:09.326] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[16Jan2026 01:06:09.333] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[16Jan2026 01:06:09.339] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.crypticmushroom.minecraft.midnight.common.compatibility.jade.MnWailaPlugin
+[16Jan2026 01:06:09.345] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.JadeAddonsBase
+[16Jan2026 01:06:09.526] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [midnight] Found status: OUTDATED Current: 0.6.3 Target: 0.6.5
+[16Jan2026 01:06:09.527] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[16Jan2026 01:06:09.732] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[16Jan2026 01:06:12.888] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16Jan2026 01:06:14.521] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/redesigned-barnacle/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23149!/assets/.mcassetsroot' uses unexpected schema
+[16Jan2026 01:06:14.522] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/redesigned-barnacle/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23149!/data/.mcassetsroot' uses unexpected schema
+[16Jan2026 01:06:14.718] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Successfully loaded 0 data remolders!
+[16Jan2026 01:06:20.307] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 7 modifier groups
+[16Jan2026 01:06:20.380] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlettucecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.382] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamparsnipcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.382] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgarliccrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.383] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwaterchestnutcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.383] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamartichokecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.383] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcattailcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.384] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamturnipcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.384] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamradishcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.385] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchilipeppercrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.385] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjicamacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.387] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamnettlescrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.387] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamblueberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.387] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamnopalescrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.388] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamspiceleafcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.389] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcactusfruitcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.389] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcantaloupecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.390] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkiwicrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.395] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcottoncrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.396] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcalabashcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.399] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamstrawberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.402] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsweetpotatocrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.403] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammulberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.403] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambrusselsproutcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.404] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtomatocrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.404] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcorncrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.404] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcloudberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.405] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamonioncrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.405] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pameggplantcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.407] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamaloecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.409] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsisalcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.409] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamyuccacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.413] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambroccolicrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.414] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamrhubarbcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.414] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammilletcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.416] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambarleycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.420] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtarocrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.421] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamoatscrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.421] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamagavecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.421] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcandleberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.422] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcassavacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.423] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtealeafcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.425] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampapyruscrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.425] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampeanutcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.427] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcucumbercrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.428] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pammustardseedscrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.429] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamrutabagacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.429] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamscallioncrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.429] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambarrelcactuscrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.430] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkohlrabicrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.430] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsesameseedscrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.432] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamhuckleberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.433] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamzucchinicrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.433] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkalecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.434] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcranberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.434] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamguaranacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.435] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgrapecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.435] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampineapplecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.436] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamarrowrootcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.440] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlotuscrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.441] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamlentilcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.441] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamelderberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.442] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambeancrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.442] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamamaranthcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.442] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchickpeacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.444] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgingercrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.446] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamleekcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.447] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamryecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.447] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwintersquashcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.449] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambellpeppercrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamalfalfacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamspinachcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcanolacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamasparaguscrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamokracrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsoybeancrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamricecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamquinoacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsorghumcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwhitemushroomcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.454] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamblackberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.455] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcauliflowercrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.455] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjuniperberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.455] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcelerycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.461] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtomatillocrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.462] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamjutecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.462] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamgreengrapecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.462] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamkenafcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.462] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcoffeebeancrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.462] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pambokchoycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.463] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamchiacrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.463] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamtrufflecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.463] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamflaxcrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.464] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamsunchokecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.465] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamwolfberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.465] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamcabbagecrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.466] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pampeascrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.467] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:pamhc2crops:blocks/pamraspberrycrop}.pools[0].entries[0]: Unreachable entry!
+[16Jan2026 01:06:20.606] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:caramelcupcakeitem_x4
+com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:caramelcupcakeitem'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[16Jan2026 01:06:20.624] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:melonpieitem
+com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:melonpieitem'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[16Jan2026 01:06:20.673] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe pamhc2foodcore:honeymuffinitem
+com.google.gson.JsonSyntaxException: Unknown item 'pamhc2foodcore:honeymuffinitem'
+	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraft.world.item.crafting.ShapedRecipe.m_151274_(ShapedRecipe.java:286) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:95) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.ShapelessRecipe$Serializer.m_6729_(ShapelessRecipe.java:84) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraftforge.common.extensions.IForgeRecipeSerializer.fromJson(IForgeRecipeSerializer.java:23) ~[forge-1.20.1-47.3.7-universal.jar%23154!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:171) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23149!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[16Jan2026 01:06:20.768] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[16Jan2026 01:06:20.822] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 8 modifier groups
+[16Jan2026 01:06:21.079] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1949 advancements
+[16Jan2026 01:06:21.086] [main/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: spawn_tables
+[16Jan2026 01:06:21.089] [main/INFO] [untamedwilds.UntamedWilds/]: Data loader for spawn_tables loaded 8 jsons
+[16Jan2026 01:06:21.090] [main/INFO] [untamedwilds.UntamedWilds/]: Beginning loading of data for data loader: entities
+[16Jan2026 01:06:21.113] [main/INFO] [untamedwilds.UntamedWilds/]: Data loader for entities loaded 36 jsons
+[16Jan2026 01:06:21.114] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[16Jan2026 01:06:21.118] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:fern_drops - error: Not a JSON object: null
+[16Jan2026 01:06:21.118] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:grass_drops - error: Not a JSON object: null
+[16Jan2026 01:06:21.119] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id pamhc2crops:tall_grass_drops - error: Not a JSON object: null
+[16Jan2026 01:06:21.154] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: forge:is_savanna
+[16Jan2026 01:06:22.858] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[16Jan2026 01:06:22.858] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[16Jan2026 01:06:22.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[16Jan2026 01:06:22.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[16Jan2026 01:06:23.089] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[16Jan2026 01:06:23.134] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[16Jan2026 01:06:23.271] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16Jan2026 01:06:23.273] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[16Jan2026 01:06:23.274] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16Jan2026 01:06:23.276] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[16Jan2026 01:06:23.496] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[16Jan2026 01:06:31.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Jan2026 01:06:37.230] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.345] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.351] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.352] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.365] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.380] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.410] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.467] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.497] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.511] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.513] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.516] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:37.730] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:38.372] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:38.721] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:39.220] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:39.746] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:40.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:40.719] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:41.217] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
+[16Jan2026 01:06:41.219] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Jan2026 01:06:41.780] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[16Jan2026 01:06:42.392] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10673 ms
+[16Jan2026 01:06:42.393] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (19.090s)! For help, type "help"
+[16Jan2026 01:06:42.463] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[16Jan2026 01:06:46.697] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[16Jan2026 01:06:46.947] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghostspared[/100.95.87.44:61910] logged in with entity id 455 at (0.7165474522606892, 78.0, 3.1755691683484475)
+[16Jan2026 01:06:47.156] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared joined the game
+[16Jan2026 01:06:47.495] [Server thread/INFO] [Jade/]: Syncing config to Ghostspared (d02c80fb-3e1b-34c2-a12d-8f3dd1be3b04)
+[16Jan2026 01:06:47.537] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[16Jan2026 01:06:48.202] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2274ms or 45 ticks behind
+[16Jan2026 01:06:56.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[16Jan2026 01:06:56.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: m<--[HERE]
+[16Jan2026 01:07:07.963] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mava_Uvu[/100.65.185.44:49329] logged in with entity id 567 at (-0.5, 76.0, -3.5)
+[16Jan2026 01:07:07.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu joined the game
+[16Jan2026 01:07:08.090] [Server thread/INFO] [Jade/]: Syncing config to Mava_Uvu (f87d690a-9299-3f35-87d9-ffc82eefea6d)
+[16Jan2026 01:07:08.093] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[16Jan2026 01:07:09.139] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mava_Uvu lost connection: Disconnected
+[16Jan2026 01:07:09.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu left the game
+[16Jan2026 01:11:32.637] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Unemployed'/453, l='ServerLevel[world]', x=-167.28, y=64.56, z=-133.37] died, message: 'Unemployed suffocated in a wall'
+[16Jan2026 01:13:00.498] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mava_Uvu[/100.65.185.44:50979] logged in with entity id 1932 at (-0.5, 76.0, -3.5)
+[16Jan2026 01:13:00.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu joined the game
+[16Jan2026 01:13:00.657] [Server thread/INFO] [Jade/]: Syncing config to Mava_Uvu (f87d690a-9299-3f35-87d9-ffc82eefea6d)
+[16Jan2026 01:13:00.665] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[16Jan2026 01:14:19.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared has made the advancement [Sweet Dreams]
+[16Jan2026 01:15:37.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared has made the advancement [Knowledge of Death]
+[16Jan2026 01:15:37.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared has made the advancement [A Strange Grave Dust]
+[16Jan2026 01:15:54.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared has made the advancement [Knowledge raises the soul]
+[16Jan2026 01:16:03.320] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2042ms or 40 ticks behind
+[16Jan2026 01:16:21.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu was shot by Stray
+[16Jan2026 01:16:21.528] [Server thread/INFO] [tombstone/]: The player Mava_Uvu has successfully been saved
+[16Jan2026 01:17:18.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has reached the goal [Here They Come]
+[16Jan2026 01:17:35.519] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Sweet Dreams]
+[16Jan2026 01:18:03.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu was shot by Stray
+[16Jan2026 01:18:04.004] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Your First Grave]
+[16Jan2026 01:18:04.008] [Server thread/INFO] [tombstone/]: The player Mava_Uvu has successfully been saved
+[16Jan2026 01:18:13.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared has made the advancement [Suit Up]
+[16Jan2026 01:18:14.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared has made the advancement [Acquire Hardware]
+[16Jan2026 01:18:15.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared has made the advancement [Isn't It Iron Pick]
+[16Jan2026 01:19:51.641] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Stone Age]
+[16Jan2026 01:20:12.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Getting an Upgrade]
+[16Jan2026 01:20:51.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Suit Up]
+[16Jan2026 01:28:47.304] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-364, y=64, z=-879} BlockPos{x=-364, y=63, z=-879}
+[16Jan2026 01:36:02.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu was slain by Ghostspared
+[16Jan2026 01:36:02.359] [Server thread/INFO] [tombstone/]: The player Mava_Uvu has successfully been saved
+[16Jan2026 01:37:29.078] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mava_Uvu lost connection: Disconnected
+[16Jan2026 01:37:29.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu left the game
+[16Jan2026 01:37:45.700] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mava_Uvu[/100.65.185.44:51972] logged in with entity id 17583 at (-492.69999998807907, 121.0, -1212.300000011921)
+[16Jan2026 01:37:45.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu joined the game
+[16Jan2026 01:37:45.755] [Server thread/INFO] [Jade/]: Syncing config to Mava_Uvu (f87d690a-9299-3f35-87d9-ffc82eefea6d)
+[16Jan2026 01:37:45.757] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[16Jan2026 01:38:01.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[16Jan2026 01:38:01.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ñ<--[HERE]
+[16Jan2026 01:38:38.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Acquire Hardware]
+[16Jan2026 01:39:45.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Isn't It Iron Pick]
+[16Jan2026 01:41:14.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Monster Hunter]
+[16Jan2026 01:41:14.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Knowledge of Death]
+[16Jan2026 01:41:14.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [A Strange Grave Dust]
+[16Jan2026 01:41:28.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Knowledge raises the soul]
+[16Jan2026 01:44:39.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared was shot by Skeleton
+[16Jan2026 01:44:39.800] [Server thread/INFO] [tombstone/]: The player Ghostspared has successfully been saved
+[16Jan2026 01:44:50.250] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghostspared was kicked for floating too long!
+[16Jan2026 01:44:50.253] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ghostspared lost connection: Disconnected
+[16Jan2026 01:44:50.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared left the game
+[16Jan2026 01:44:50.295] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[16Jan2026 01:44:57.314] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ghostspared[/100.95.87.44:62291] logged in with entity id 18716 at (-491.6235928086571, 93.73351683764217, -1220.6589513365645)
+[16Jan2026 01:44:57.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ghostspared joined the game
+[16Jan2026 01:44:57.424] [Server thread/INFO] [Jade/]: Syncing config to Ghostspared (d02c80fb-3e1b-34c2-a12d-8f3dd1be3b04)
+[16Jan2026 01:44:57.430] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
+[16Jan2026 01:46:17.391] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [Not Today, Thank You]
+[16Jan2026 01:46:17.392] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu has made the advancement [No Hard Feelings]
+[16Jan2026 01:46:21.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu was slain by Zombie
+[16Jan2026 01:46:21.734] [Server thread/INFO] [tombstone/]: The player Mava_Uvu has successfully been saved
+[16Jan2026 01:46:36.543] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mava_Uvu was kicked for floating too long!
+[16Jan2026 01:46:36.591] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Mava_Uvu lost connection: Flying is not enabled on this server
+[16Jan2026 01:46:36.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu left the game
+[16Jan2026 01:46:44.500] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Mava_Uvu[/100.65.185.44:64283] logged in with entity id 20809 at (-490.33507391451053, 93.23635870844738, -1198.4336524326059)
+[16Jan2026 01:46:44.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Mava_Uvu joined the game
+[16Jan2026 01:46:44.539] [Server thread/INFO] [Jade/]: Syncing config to Mava_Uvu (f87d690a-9299-3f35-87d9-ffc82eefea6d)
+[16Jan2026 01:46:44.540] [Server thread/INFO] [untamedwilds.UntamedWilds/]: Firing player login event
